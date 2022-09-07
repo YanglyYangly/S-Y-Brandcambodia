@@ -1,0 +1,36 @@
+
+/*
+ * Fashion css
+ */
+ .auto_install_layout15 .site-header .woocommerce-product-search input.search-field[type="search"]{
+     background: #f7f7f7;
+}
+.header_cart button.btn::after {
+	background: rgba(0, 0, 0, 0) url("../../images/sprite_1.png") no-repeat scroll -32px -114px;
+}
+.site-header .ttsupport .ttcontent_inner .service .ttsupport_img {
+	background: rgba(0, 0, 0, 0) url("../../images/sprite_1.png") repeat scroll -35px -426px;
+}
+#ttcmsheader .ttheader-service::before {
+	background: rgba(0, 0, 0, 0) url("../../images/sprite_1.png") repeat scroll -38px -487px;
+}
+.auto_install_layout15 .top-header::after {
+	background: rgba(0, 0, 0, 0) url("../../images/top_header.png") repeat scroll center center;
+	content: "";
+	height: 10px;
+	width: 100%;
+	z-index: 999;
+	bottom: auto;
+	position: absolute;
+	top: 37px;
+	background-position: top;
+}
+.auto_install_layout15 #headercarttrigger > span{
+    color: #fff;
+}
+.top-header{
+    min-height: 45px;
+}
+.auto_install_layout15 .site-footer .follow-us ul li a:hover{
+    background-color: #fff;
+}

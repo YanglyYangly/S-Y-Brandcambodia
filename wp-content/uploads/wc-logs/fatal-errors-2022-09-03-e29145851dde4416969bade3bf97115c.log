@@ -1,0 +1,88 @@
+2022-09-03T06:20:21+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php:52
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#3 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(80): do_action('woocommerce_tha...', 1449)
+#6 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#7 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\short in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php on line 52
+
+2022-09-03T06:53:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_image() in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:55
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugin in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 55
+
+2022-09-03T06:55:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_image() in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:35
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugin in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 35
+
+2022-09-03T07:03:29+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:53
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugins\woocommerce\ in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 53
+
+2022-09-03T07:05:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_image() in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:53
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugin in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 53
+
+2022-09-03T07:05:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_image() in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:53
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugin in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 53
+
+2022-09-03T07:06:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_image() in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:53
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugin in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 53
+
+2022-09-03T07:06:58+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_image() in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php:53
+Stack trace:
+#0 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details.php(72): wc_get_template('order/order-det...', Array)
+#2 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\themesy\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2677): wc_get_template('order/order-det...', Array)
+#4 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(307): woocommerce_order_details_table(1449)
+#5 D:\laragon\www\themesy\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\laragon\www\themesy\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\laragon\www\themesy\wp-content\plugin in D:\laragon\www\themesy\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 53
+

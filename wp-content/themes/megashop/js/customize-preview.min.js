@@ -1,0 +1,1 @@
+!function(t){var i=wp.customize;i("blogname",function(i){i.bind(function(i){t(".site-title a").text(i)})}),i("blogdescription",function(i){i.bind(function(i){t(".site-description").text(i)})})}(jQuery);
